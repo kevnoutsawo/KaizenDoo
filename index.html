@@ -1,0 +1,37 @@
+<!-- KaizenDoo - An open source task management software-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <title>Welcome | KaizenDoo</title>
+</head>
+<body>
+    <div class="app">
+        <h1>KaizenDoo</h1>
+        <div class="list todo">
+            <h2>To Do</h2>
+            <ul id="dolist">
+                <!--
+                <li id="task1">
+                    <label for="task1"><input type="checkbox" name="task1" id="checktask1"> Create a To Do App</label>
+                </li>
+            -->
+            </ul>
+        </div>
+        <div class="list done">
+            <h2>Done</h2>
+            <ul id="donelist">
+            </ul>
+        </div>
+        <form id="createTask">
+            <h2>Create a new task</h2>
+            <input type="text" name="newTask" id="newTask">
+            <button id="addButton">Add task</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.app {
+    display: grid;
+    grid-template-areas: 
+    "a a"
+    "b c"
+    "d d";
+    grid-gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    grid-area: a;
+}
+
+.list .todo{
+   grid-area: b;
+}
+
+.list .done{
+    grid-area: b;
+ }
+
+form {
+    grid-area: d;
+}
+
+ul li {
+    list-style-type: none;
+}
